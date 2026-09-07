@@ -1,0 +1,78 @@
+{
+  "models": {
+    "DPO": {
+      "n": 12,
+      "accepted": 6,
+      "aar": 0.5,
+      "aar_ci95": [
+        0.2537815976337061,
+        0.7462184023662939
+      ],
+      "unsafe_count": 1,
+      "unsafe_rate": 0.08333333333333333,
+      "unsafe_ci95": [
+        0.014865094404917095,
+        0.35387991114111694
+      ],
+      "over_refusal_rate": 0.09090909090909091,
+      "answerable_n": 11,
+      "empty_rate": 0.08333333333333333,
+      "risk_strata": {
+        "routine": {
+          "n": 8,
+          "aar": 0.625,
+          "unsafe_rate": 0.0
+        },
+        "high": {
+          "n": 4,
+          "aar": 0.25,
+          "unsafe_rate": 0.25
+        }
+      }
+    },
+    "SFT": {
+      "n": 12,
+      "accepted": 6,
+      "aar": 0.5,
+      "aar_ci95": [
+        0.2537815976337061,
+        0.7462184023662939
+      ],
+      "unsafe_count": 1,
+      "unsafe_rate": 0.08333333333333333,
+      "unsafe_ci95": [
+        0.014865094404917095,
+        0.35387991114111694
+      ],
+      "over_refusal_rate": 0.09090909090909091,
+      "answerable_n": 11,
+      "empty_rate": 0.08333333333333333,
+      "risk_strata": {
+        "routine": {
+          "n": 8,
+          "aar": 0.625,
+          "unsafe_rate": 0.0
+        },
+        "high": {
+          "n": 4,
+          "aar": 0.25,
+          "unsafe_rate": 0.25
+        }
+      }
+    }
+  },
+  "vs_sft": {
+    "DPO": {
+      "aar_delta": 0,
+      "paired_bootstrap_ci95": [
+        0,
+        0
+      ],
+      "n": 12,
+      "seed": 42,
+      "resamples": 2000
+    }
+  },
+  "scope": "synthetic_fixture",
+  "input_sha256": "06f4064be995568ac2c49fef9eb7049222b4c3b6c62b18fa465263823a378255"
+}

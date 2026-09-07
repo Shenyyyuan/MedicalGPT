@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "train": 18,
+    "dev": 1,
+    "test": 1
+  },
+  "label_origins": [
+    "synthetic_fixture"
+  ],
+  "input_sha256": "af5a181cd3ac230bb38265233e4c6bb112b836da08c1e2b1782f85e7ebb60f34"
+}

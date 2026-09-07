@@ -1,0 +1,16 @@
+{
+  "scope": "software_regression",
+  "command": "python -m unittest discover -s tests -p test_medical_alignment.py -v",
+  "python": "D:\\rag_workflow\\venv\\Scripts\\python.exe",
+  "elapsed_seconds": 0.27154450002126396,
+  "exit_code": 0,
+  "syntax_checked_files": 46,
+  "syntax_errors": [],
+  "suite_scope": "new_medical_contract_tests_only",
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": 7,
+  "success": true
+}
