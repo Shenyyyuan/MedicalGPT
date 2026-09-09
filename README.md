@@ -1,4 +1,4 @@
-#MedicalGPT · Safety-aware Post-training for Medical
+# MedicalGPT · Safety-aware Post-training for Medical
 面向中文医疗问答的 数据构造 → SFT → 偏好对齐 → Reward Modeling / Online RL → 可审计评测 实验项目。项目重点不是“把所有训练算法串起来”，而是围绕同一个医疗问答问题，系统比较不同 post-training 路线在 事实准确性、专业表达、安全合规与回答可接受性 上的差异，并记录训练工程中的显存、稳定性和评测问题。
 > **项目定位**  
 > 本项目基于 `shibing624/MedicalGPT` 的训练框架开展个人实验。上游已有 PT/SFT/RM/PPO/GRPO 等能力；个人工作重点包括：医疗数据清洗与格式适配、偏好数据构造、SFT/DPO/RM/RLOO/GRPO 实验、LoRA 与分布式训练配置、统一 AAR 评测、judge bias / reward hacking 分析，以及补充的安全数据契约与配对评测工具。
