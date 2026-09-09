@@ -55,14 +55,6 @@
 
 ## 3. Post-training 不是严格串行 Pipeline
 
-过去的简历容易让人误解为：
-
-```text
-SFT → DPO → RM → RLHF
-```
-
-更准确的实验设计应该是：
-
 ```text
                     ┌───────────── DPO ─────────────┐
                     │   offline preference alignment│
